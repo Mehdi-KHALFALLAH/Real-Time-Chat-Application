@@ -32,3 +32,21 @@
     width: 60%;
   }
 }
+
+.fixedElement {
+  color:black;
+    background-color: #ffffff;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+    animation: blinker 2s linear 2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

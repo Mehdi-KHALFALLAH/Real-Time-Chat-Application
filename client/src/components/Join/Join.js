@@ -1,14 +1,21 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Join.css";
+
 const Join = () => {
     const [name, setName] = useState("");
     const [room, setRoom] = useState("");
 
     return (
+      
         <div className="joinOuterContainer">
+            <div className= "fixedElement">Developed by Mehdi Khalfallah</div>
+            
+          
             <div className="joinInnerContainer">
+                
                 <h1 className="heading">Join</h1>
+                
                 <div>
                     <input
                         placeholder="Name"

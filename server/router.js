@@ -1,12 +1,9 @@
-const express = require ('express') ;
+  
+const express = require("express");
+const router = express.Router();
 
-const router = express.Router() ;
+router.get("/", (req, res) => {
+  res.send({ response: "Server is up and running." }).status(200);
+});
 
-router.get('/', (req,res) => {
-    res.send('server is up and running') ;
-
-
-
-}
-);
-module.exports = router ;
+module.exports = router;
