@@ -1,7 +1,7 @@
 # Real-Time-Chat-Application 
 ### [Live Site](https://live-chat-application-by-mehdi-kh.netlify.app/)
 
-
+![](https://github.com/Mehdi-KHALFALLAH/Real-Time-Chat-Application/blob/main/social%20Chat%20application.gif)
 
 
 ## Introduction
